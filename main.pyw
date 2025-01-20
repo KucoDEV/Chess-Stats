@@ -85,7 +85,7 @@ def add_game(result):
 # Mise à jour de l'affichage
 def update_stats():
     elo_label.config(text=f"ELO: {data['elo']}")
-    games_label.config(text=f"Parties jouées : {data['games_played']} / {data['games_goal']}")
+    games_label.config(text=f"Objectif : {data['games_played']} / {data['games_goal']}")
     victories_label.config(text=f"Victoires : {data['victories']}")
     defeats_label.config(text=f"Défaites : {data['defeats']}")
     draws_label.config(text=f"Nulles : {data['draws']}")
