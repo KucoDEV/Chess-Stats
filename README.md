@@ -19,12 +19,6 @@ Chess Stats est une application en **Python** avec **Tkinter** et **ttkbootstrap
 
 ---
 
-## 📸 Aperçu de l'interface
-
-L'interface propose une présentation plus claire des statistiques avec des boutons colorés et stylisés.
-
----
-
 ## 🚀 Installation et utilisation
 
 ### 📥 Prérequis
