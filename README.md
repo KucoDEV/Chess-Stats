@@ -1,77 +1,77 @@
-# Chess Stats - Amélioration de l'interface
+# Chess Stats
 
 ## 📌 Description
 
-Chess Stats est une application en **Python** avec **Tkinter** et **ttkbootstrap** qui permet de suivre vos statistiques de parties d'échecs. Cette version améliorée propose une interface plus moderne et ergonomique tout en conservant les fonctionnalités d'origine.
+Chess Stats is a **Python** application using **Tkinter** and **ttkbootstrap** that allows you to track your chess game statistics. This improved version offers a more modern and ergonomic interface while maintaining the original functionalities.
 
 ---
 
-## 🛠️ Fonctionnalités
+## 🛠️ Features
 
-- 🎨 **Interface modernisée** avec **ttkbootstrap** et un thème amélioré
-- 📈 Suivi en temps réel de votre **ELO**
-- 🎯 Définition d'un objectif de parties à jouer
-- ✅ Ajout rapide des résultats :
-  - **Victoire** ➝ Augmente l'ELO
-  - **Défaite** ➝ Diminue l'ELO
-  - **Nulle** ➝ Option pour modifier l'ELO
-- 🗂️ Sauvegarde automatique des données dans un fichier `chess_stats.json`
+- 🎨 **Modernized interface** with **ttkbootstrap** and an improved theme
+- 📈 Real-time tracking of your **ELO**
+- 🎯 Setting a target for games to play
+- ✅ Quick result entry:
+  - **Win** ➝ Increases ELO
+  - **Loss** ➝ Decreases ELO
+  - **Draw** ➝ Option to modify ELO
+- 🗂️ Automatic data saving in a `chess_stats.json` file
 
 ---
 
-## 🚀 Installation et utilisation
+## 🚀 Installation and Usage
 
-### 📥 Prérequis
+### 📥 Prerequisites
 
-- **Python 3.x** installé
-- Bibliothèques nécessaires : `tkinter`, `json`, `ttkbootstrap`
+- **Python 3.x** installed
+- Required libraries: `tkinter`, `json`, `ttkbootstrap`
 
 ### 🏗️ Installation
 
-1. **Clonez ce dépôt** :
+1. **Clone this repository**:
    ```sh
    git clone https://github.com/KucoDEV/chess-stats
    cd chess-stats
    ```
 
-2. **Installez les dépendances** :
+2. **Install dependencies**:
    ```sh
    pip install ttkbootstrap
    ```
 
-3. **Lancez l'application** :
+3. **Run the application**:
    ```sh
    python main.py
    ```
 
 ---
 
-## 📂 Structure du projet
+## 📂 Project Structure
 
 ```
 chess-stats/
-│── main.py                   # Code principal avec interface améliorée avec console
-│── main.pyw                  # Code principal avec interface améliorée sans console
-│── chess_stats.json          # Fichier de stockage des statistiques
-│── README.md                 # Documentation du projet
+│── main.py                   # Main code with enhanced interface with console
+│── main.pyw                  # Main code with enhanced interface without console
+│── chess_stats.json          # Statistics storage file
+│── README.md                 # Project documentation
 ```
 
 ---
 
-## 🤖 Fonctionnement du code
+## 🤖 Code Functionality
 
-### 🏆 Gestion des parties
+### 🏆 Game Management
 
-L'application charge les statistiques depuis `chess_stats.json`. Vous pouvez ajouter une **victoire, une défaite ou une nulle** via les boutons interactifs.
+The application loads statistics from `chess_stats.json`. You can add a **win, loss, or draw** using the interactive buttons.
 
-L'évolution de l'ELO est demandée dynamiquement via des boîtes de dialogue `tkinter`.
+ELO progression is dynamically requested through `tkinter` dialog boxes.
 
-### 🔄 Sauvegarde automatique
+### 🔄 Automatic Saving
 
-À chaque mise à jour des statistiques, le fichier `chess_stats.json` est mis à jour.
+Each time statistics are updated, the `chess_stats.json` file is updated accordingly.
 
 ---
 
-## 📜 Licence
+## 📜 License
 
-Ce projet est sous licence **MIT**. Vous êtes libre de le modifier et de le redistribuer.
+This project is licensed under the **MIT** license. You are free to modify and redistribute it.
